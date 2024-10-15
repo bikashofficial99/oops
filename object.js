@@ -7,13 +7,13 @@ console.log(multipleby5(5));
 console.log(multipleby5.power);
 console.log(multipleby5.prototype);
 
-function user(username, score){
+function createUser(username, score){
     this.username =username ;
     this.score = score ;
 }
 
-creteUser.prototype.increment = function(){
+createUser.prototype.increment = function(){
     score++
 }
-const hari = creteUser("hari",25)
-const syam = creteUser("syam",250)
+const hari = createUser("hari",25)
+const syam = createUser("syam",250)
