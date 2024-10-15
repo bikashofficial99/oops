@@ -12,4 +12,8 @@ function user(username, score){
     this.score = score ;
 }
 
-cre
+creteUser.prototype.increment = function(){
+    score++
+}
+const hari = creteUser("hari",25)
+const syam = creteUser("syam",250)
